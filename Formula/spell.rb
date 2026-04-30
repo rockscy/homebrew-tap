@@ -1,28 +1,28 @@
 class Spell < Formula
   desc "AI command palette for your terminal"
   homepage "https://github.com/rockscy/spell"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rockscy/spell/releases/download/v0.2.1/spell_0.2.1_darwin_arm64.tar.gz"
-      sha256 "f086a46f3939ace79f8b6c71293c9839b47d9cd65b97a6e8418f71fce3b57d97"
+      url "https://github.com/rockscy/spell/releases/download/v0.3.0/spell_0.3.0_darwin_arm64.tar.gz"
+      sha256 "f14a93402a1190aedaafc7b5093508e282287a6488dd3e7181d577ec62bc693b"
     end
     on_intel do
-      url "https://github.com/rockscy/spell/releases/download/v0.2.1/spell_0.2.1_darwin_amd64.tar.gz"
-      sha256 "61d3faff8a08471f3c91587acae5f730153f0db13eede2d42d8f0d378b552e06"
+      url "https://github.com/rockscy/spell/releases/download/v0.3.0/spell_0.3.0_darwin_amd64.tar.gz"
+      sha256 "af56f8f8c1923880fdee0c058c8639536b21ed960ed0c79b27e5e0536ebd0546"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rockscy/spell/releases/download/v0.2.1/spell_0.2.1_linux_arm64.tar.gz"
-      sha256 "71d3c3de016ef5ebe4837fab6fe0b61f2a98c418954eb2b5d46358942278b3fb"
+      url "https://github.com/rockscy/spell/releases/download/v0.3.0/spell_0.3.0_linux_arm64.tar.gz"
+      sha256 "00e7411bde2d0750ddae92b15133ca778283d907e9d4ec4eeed0cccd1ae1d2be"
     end
     on_intel do
-      url "https://github.com/rockscy/spell/releases/download/v0.2.1/spell_0.2.1_linux_amd64.tar.gz"
-      sha256 "3b54545b82928ca01e91896a2670ce78de710f696f80ef38ada894569c56eaf3"
+      url "https://github.com/rockscy/spell/releases/download/v0.3.0/spell_0.3.0_linux_amd64.tar.gz"
+      sha256 "6333fdb1004a0758d90465ef8bc6457540e79d8502947a8d6d50bd96930f5e76"
     end
   end
 
